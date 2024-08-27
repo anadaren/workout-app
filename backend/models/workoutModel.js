@@ -20,5 +20,3 @@ const workoutSchema = new Schema({
 
 // creates model based on Schema
 module.exports = mongoose.model('Workout', workoutSchema);
-
-workoutSchema.find();
